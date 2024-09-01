@@ -1,0 +1,219 @@
+:root{
+    --color-primary:rgb(255 39 104);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar-brand img{
+    width: 50px;
+    border-radius:50% ;
+}
+.nav-link{
+    padding: 30px;
+
+}
+.nav-link:hover,.active{
+    background-color: rgb(255 39 104);
+    color: white;
+}
+
+.booking-section{
+    background-image: url('./image/image.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+ 
+  
+
+}
+.Search-form{
+   padding: 30px;
+    background-color: white;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.inp{
+  width: 25%;
+  position: relative;
+  
+}
+.btn-primary{
+  width: 100%;
+  background-color:var(--color-primary) ;
+  border:none;
+  border-radius: 0;
+  padding: 10px;
+}
+.btn-primary:hover{
+background-color: rgb(211, 13, 76);
+}
+.inp i{
+    position: absolute;
+    left: 10px;
+    right: 0;
+    top: 12px;
+    color: var(--color-primary);
+   
+}
+.form-control{
+    border-radius:0;
+    padding: 12.5px;
+    padding-left: 50px;
+    font-size: .8rem;
+}
+
+.subscrip-setion{
+    padding: 50px 0;
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.subscrip-setion a{
+   
+    border: 2px solid white;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 0;
+}
+.subscrip-setion p{
+    text-transform: capitalize;
+}
+.subscrip-setion h2{
+font-size: 40px;
+}
+
+
+.subscrip-setion a:hover{
+background-color: #fff;
+color: black;
+}
+section{
+    position: relative;
+    width: 100%;
+}
+.svgc{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+}
+#card-section{
+
+    margin-top: 50px;
+    align-items: center;
+    color: var(--color-primary);
+    text-align: center;  
+    padding: 25px;
+  
+}
+
+#card{
+    transition: .2s ease;
+    margin-bottom: 25px;
+}
+#card a{
+    background-color: var(--color-primary);
+    border-radius: 0;
+    border: none;
+    margin-bottom: 10px;
+}
+.item a{
+    background-color: var(--color-primary);
+    border-radius: 0;
+    border: none;
+    width: 80%;
+}
+#card:hover{
+  scale: 1.1;
+  box-shadow: 0 0 7px 0  rgb(187, 179, 179);
+}
+#fa{
+    font-size: 60px;
+}
+.slick-slider{
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.item{
+    text-align: center;
+    
+}
+
+
+
+
+
+#right-side .head{
+    background-color:var(--color-primary);
+    padding: 15px;
+    color: white;
+}
+
+.content div{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    text-transform: uppercase;
+    align-items: center;
+   background-color: white;
+    margin-bottom: 17px;
+    transition: 0.2s ease-in;
+}
+.content div:hover{
+    scale: 1.1;
+    box-shadow: 0 0 7px 0  rgb(187, 179, 179);
+    background-color: #c3bebe;
+  }
+.item img{
+    width: 100%;
+}
+.content img{
+    width: 20%;
+}
+
+
+
+
+.video-section{
+    width: 100%;
+    overflow: hidden;
+    height: 550px;
+    position: relative;
+   
+}
+.video-section video{
+    width: 100%;
+    height: 550px;
+}
+
+.overlay{
+position: absolute;
+background-color: rgb(0 0 0/50%);
+width: 100%;
+z-index: 1;
+height: 550px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.overlay i {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+
+}
+
+.overlay .i-hidden {
+   display: none;
+}
+
