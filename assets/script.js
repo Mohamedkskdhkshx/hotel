@@ -18,6 +18,7 @@ let overlay = document.getElementsByClassName("overlay")
 iPlay.addEventListener("click",function(){
    if(video.paused){
       video.play()
+       video.hide()
      
    }else{
       video.pause();
